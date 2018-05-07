@@ -1,6 +1,4 @@
 import subprocess
+from base import *
 
-source = os.path.dirname(__file__)
-parent = os.path.join(source, '../')
-
-subprocess.call("git pull origin")
+subprocess.call("git pull origin master", shell=True, cwd=getParentDir())
