@@ -41,6 +41,6 @@
   },
   "scripts": {
     "dev": "set NODE_ENV=development&&webpack-dev-server --inline --progress --config build/webpack.dev.config.babel.js --mode development",
-    "prod": "set NODE_ENV=production&&webpack --progress --config build/webpack.dev.config.babel.js --mode production"
+    "prod": "set NODE_ENV=production&&webpack --progress --config build/webpack.prod.config.babel.js --mode production"
   }
 }
